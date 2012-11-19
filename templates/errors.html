@@ -1,0 +1,8 @@
+<p><%= global %></p>
+<% if ( fields.length ) { %>
+<ul class="error-list">
+<% _.each( fields, function ( error ) { %>
+<li><strong><%= error.label %></strong>: <%= error.message %></li>
+<% }) %>
+</ul>
+<% } %>

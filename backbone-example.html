@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>DOM Concerns: Backbone Example</title>
+
+	<style>
+	.form-errors,
+	.form-success {
+		border: solid 1px black;
+		padding: 10px;
+		margin: 0 0 10px;
+		display: none;
+	}
+
+	.form-errors  { color: red;   border-color: red;  }
+	.form-success { color: green; border-color: green;  }
+	
+	.has-errors .form-errors { display: block; }
+	.is-successful .form-success { display: block; }
+	.is-successful .form-content { display: none; }
+	</style>
+</head>
+<body>
+
+<div class="signup-form"></div>
+
+
+<script data-main="lib/main" src="node_modules/requirejs/require.js"></script>
+<script>
+	require([ "backbone-app/app" ], function ( app ) {
+		app.start();
+	});
+</script>
+</body>
+</html>

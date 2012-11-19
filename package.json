@@ -1,0 +1,14 @@
+{
+	"name": "dom-concerns",
+	"version": "0.1.0",
+	"description": "Exploring the separation of DOM and application level concerns",
+
+	"dependencies": {
+		"requirejs": ">=2.0"
+	},
+
+	"devDependencies": {
+		"mocha": ">=1.4",
+		"expect.js": ">=0.2"
+	}
+}

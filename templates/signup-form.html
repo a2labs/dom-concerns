@@ -1,0 +1,20 @@
+<form action="" method="POST">
+	<div class="form-errors"></div>
+	<fieldset class="form-content">
+		<div>
+			<label for="<%= _prefix %>Name">Name</label>
+			<input id="<%= _prefix %>Name" name="name" type="text" value="" />
+		</div>
+		<div>
+			<label for="<%= _prefix %>Password">Password</label>
+			<input id="<%= _prefix %>Password" name="password" type="password" value="" class="signup-password" />
+			<span><input id="<%= _prefix %>ShowPassword" type="checkbox" class="signup-show-password" /><label for="<%= _prefix %>ShowPassword">Show Password</label></span>
+		</div>
+		<div class="footer-actions">
+			<input type="submit" value="Sign Up!" />
+		</div>
+	</fieldset>
+	<div class="form-success">
+		<p>Your signup was successful!</p>
+	</div>
+</form>
