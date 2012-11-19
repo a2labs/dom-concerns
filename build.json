@@ -1,0 +1,6 @@
+{
+	"anvil.mocha": {
+		"ignoreLeaks": true,
+		"specs": "./test"
+	}
+}

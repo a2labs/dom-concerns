@@ -9,6 +9,7 @@
 
 	"devDependencies": {
 		"mocha": ">=1.4",
-		"expect.js": ">=0.2"
+		"expect.js": ">=0.2",
+		"jquery": ">=1.8"
 	}
 }
