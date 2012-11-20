@@ -1,8 +1,4 @@
-var requirejs = require( "requirejs" ),
-	expect    = require( "expect.js" ),
-	config    = require("./config.js" );
-
-requirejs.config( config );
+require( "./config" ).runner( global );
 
 var SignupFormModel;
 
